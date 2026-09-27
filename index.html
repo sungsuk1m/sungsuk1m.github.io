@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sungsu Kim is a Computer Engineering undergraduate at NYU Abu Dhabi interested in embodied AI, robot perception, and spatial reasoning for navigation and manipulation.">
+  <meta name="theme-color" content="#242424">
+  <title>Sungsu Kim | Robotics Research</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23242424'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia' font-size='32' fill='white'%3Esk%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=17">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page">
+    <header id="home">
+      <h1>Sungsu Kim</h1>
+      <div class="intro-row">
+        <div class="headshot-frame">
+          <img id="headshot-image" src="media/headshot.JPG" alt="Sungsu Kim" width="240" height="300">
+        </div>
+        <div class="intro">
+          <p class="greeting">About me</p>
+          <p>I'm a Computer Engineering undergraduate at NYU Abu Dhabi, graduating in May 2027. I am broadly interested in embodied AI, particularly robot perception and spatial reasoning for navigation and manipulation. My work explores how vision-language models and multimodal sensing can help robots understand and interact with the physical world.</p>
+      <div class="research-interests" aria-labelledby="interests-title">
+        <h2 id="interests-title">Research interests</h2>
+        <ul>
+          <li>Robot manipulation and navigation using vision-language models.</li>
+          <li>Perception and spatial understanding with SLAM and 3D Gaussian Splatting.</li>
+          <li>Sim-to-real transfer and deployment, with a focus on safety and human interaction.</li>
+        </ul>
+      </div>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <article class="publication media-row">
+          <figure class="publication-media">
+            <video controls muted playsinline preload="metadata" poster="media/claro-poster.jpg" width="1920" height="1080" aria-label="CLARO demonstration: grasping a can of pitted cherries in a cluttered scene">
+              <source src="media/claro-video.mp4" type="video/mp4">
+              <a href="media/claro-video.mp4">Watch the CLARO demonstration</a>
+            </video>
+          </figure>
+          <div class="entry-content">
+          <h3>CLARO: Clutter-Aware Robot Orchestrator for Open-Vocabulary Grasping Using VLM Agents</h3>
+          <p class="authors"><span class="author-self">S. Kim</span>, V. Bhat, P. Krishnamurthy, R. Karri, and F. Khorrami</p>
+          <p class="venue">Under review</p>
+          <p class="description">A vision-language model orchestrator for occlusion-aware, open-vocabulary grasping in cluttered scenes.</p>
+          <div class="publication-links" aria-label="CLARO resources">
+            <span class="pending-link">arXiv <span>(Coming soon)</span></span>
+            <span class="pending-link">Website <span>(Coming soon)</span></span>
+          </div>
+          </div>
+        </article>
+        <article class="publication media-row">
+          <figure class="publication-media">
+            <a href="media/bop-ask-figure.jpg" target="_blank" rel="noopener" aria-label="View the full-size BOP-ASK figure">
+              <img src="media/bop-ask-figure.jpg" width="2960" height="1668" loading="lazy" alt="BOP-ASK coffee-pouring example showing physical relationships, grasping, pose estimation, and motion planning.">
+            </a>
+          </figure>
+          <div class="entry-content">
+          <h3>BOP-ASK: Object-Interaction Reasoning for Vision-Language Models</h3>
+          <p class="authors">V. Bhat, <span class="author-self">S. Kim</span>, V. Blukis, G. Heinrich, P. Krishnamurthy, R. Karri, S. Birchfield, F. Khorrami, and J. Tremblay</p>
+          <p class="venue">CVPR 2026</p>
+          <p class="description">Object-interaction reasoning for vision-language models across pose, grasp, trajectory, and spatial relations.</p>
+          <div class="publication-links" aria-label="BOP-ASK resources">
+            <a href="https://arxiv.org/abs/2511.16857" target="_blank" rel="noopener" aria-label="BOP-ASK on arXiv">arXiv</a>
+            <a href="https://bop-ask.github.io/" target="_blank" rel="noopener" aria-label="BOP-ASK project website">Website</a>
+          </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <article class="project media-row">
+          <a href="media/object-goal-navigation-combined.jpg" target="_blank" rel="noopener" aria-label="Open Object-Goal Navigation in Dynamic Environments image">
+            <img src="media/object-goal-navigation-combined.jpg" alt="TITA and Boston Dynamics Spot platforms for object-goal navigation" width="1816" height="1200" loading="lazy">
+          </a>
+          <div class="entry-content">
+          <h3>Object-Goal Navigation in Dynamic Environments</h3>
+          <p class="meta">Capstone design project · August 2026–present</p>
+          <p>Object-goal navigation in dynamic environments with multiple instances of a target object, using a modular, embodiment-agnostic design with scene graphs for TITA and Boston Dynamics Spot.</p>
+          </div>
+        </article>
+        <article class="project media-row">
+          <video class="project-video humanoid-video" controls muted playsinline preload="metadata" poster="media/g1-navigation-poster.jpg" width="480" height="854" aria-label="Real-world navigation with a Unitree G1 humanoid">
+            <source src="media/g1-navigation-2x.mp4" type="video/mp4">
+            <a href="media/g1-navigation-2x.mp4">Watch the humanoid navigation video</a>
+          </video>
+          <div class="entry-content">
+          <h3>Real-World Humanoid Navigation</h3>
+          <p class="meta">AI4CE Lab, NYU · June 2026–present</p>
+          <p>Long-horizon indoor and outdoor navigation for a Unitree G1 humanoid, focused on real-world challenges such as safety, robustness, and interactions. Uses high-fidelity 3D Gaussian Splatting (3DGS) simulation to fine-tune and simulate high-level policies.</p>
+          </div>
+        </article>
+        <article class="project media-row">
+          <video class="project-video" controls muted playsinline preload="metadata" poster="media/maze-poster.jpg" width="1590" height="1590" aria-label="Visual navigation in unseen mazes: camera view and mapped navigation route">
+            <source src="media/maze_project.mp4" type="video/mp4">
+            <a href="media/maze_project.mp4">Watch the maze navigation video</a>
+          </video>
+          <div class="entry-content">
+          <h3>Visual Navigation in Unseen Mazes</h3>
+          <p class="meta">NYU Tandon · February–May 2026</p>
+          <p>Autonomous maze navigation combining visual localization, online mapping, and direction-aware A* planning. Placed first in the course challenge with a 9.05 s navigation time, 51.7% faster than second place, and 0.051 m final position error.</p>
+          <div class="publication-links" aria-label="Visual navigation resources">
+            <a href="https://github.com/Aman-Sunesh/Autonomous-Maze-Navigation-Using-Visual-SLAM" target="_blank" rel="noopener" aria-label="Visual navigation code on GitHub">Code</a>
+          </div>
+          </div>
+        </article>
+        <article class="project media-row">
+          <a href="media/audio-enhanced-slam-full.png" target="_blank" rel="noopener" aria-label="Open Audio-Enhanced Semantic SLAM image">
+            <img src="media/audio-enhanced-slam.png" alt="Audio-enhanced SLAM pipeline: robot sensing, sound classification, 3D localization, and RTAB-Map SLAM" width="2400" height="824" loading="lazy">
+          </a>
+          <div class="entry-content">
+          <h3>Audio-Enhanced Semantic SLAM</h3>
+          <p class="meta">Center for Artificial Intelligence and Robotics, NYU Abu Dhabi · February–September 2025</p>
+          <p>Audio-enhanced semantic mapping combining sound classification and 3D source localization to support loop closure for RTAB-Map on a mobile robot.</p>
+          </div>
+        </article>
+        <article class="project media-row">
+          <a href="media/aim-lab.png" target="_blank" rel="noopener" aria-label="Open AIM Lab VR environment image">
+            <img src="media/aim-lab.png" alt="AIM Lab virtual reality environment for stress regulation, built in Unity" width="859" height="548" loading="lazy">
+          </a>
+          <div class="entry-content">
+            <h3>Immersive XR for Stress Regulation</h3>
+            <p class="meta">Applied Interactive Multimedia (AIM) Lab, NYU Abu Dhabi · June–July 2024</p>
+            <p>An immersive Unity environment for Meta Quest 3 combining visual, auditory, and haptic stimuli to support emotion and stress regulation.</p>
+            <div class="publication-links" aria-label="Immersive XR resources">
+              <a href="https://github.com/sungsuk1m/Immersive-XR-for-stress-Regulation" target="_blank" rel="noopener" aria-label="Immersive XR code on GitHub">Code</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <article class="education">
+          <div class="education-heading"><h3>New York University Abu Dhabi</h3><p class="date">Expected May 2027</p></div>
+          <p>B.S. in Computer Engineering</p>
+          <p class="meta">GPA: 3.99 / 4.00</p>
+        </article>
+        <article class="education">
+          <div class="education-heading"><h3>NYU Tandon School of Engineering</h3><p class="date">September 2025–May 2026</p></div>
+          <p>Study away</p>
+          <p class="meta">GPA: 4.00 / 4.00</p>
+        </article>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p style="margin-bottom: 18px;">I am happy to talk about research and collaborations!</p>
+        <div class="contact-links">
+          <a href="mailto:sk9146@nyu.edu"><svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span>sk9146@nyu.edu</span></a>
+          <a href="https://www.linkedin.com/in/sungsu-kim-457b05326/" target="_blank" rel="noopener"><svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><span>LinkedIn</span></a>
+          <a href="https://github.com/sungsuk1m" target="_blank" rel="noopener" id="github-contact"><svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.3-4.3-2.5-6-3m12 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 4.77 5.07 5.07 0 0 0 18.91 1S17.73.65 15 2.48a13.38 13.38 0 0 0-7 0C5.27.65 4.09 1 4.09 1A5.07 5.07 0 0 0 4 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8 18.13V22"/></svg><span>GitHub</span></a>
+          <a href="Sungsu-Kim-CV.pdf" target="_blank" rel="noopener"><svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h6"/></svg><span>CV</span></a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
