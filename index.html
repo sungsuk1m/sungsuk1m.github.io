@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#242424">
   <title>Sungsu Kim | Robotics Research</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23242424'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia' font-size='32' fill='white'%3Esk%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=17">
+  <link rel="stylesheet" href="styles.css?v=19">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -24,9 +24,9 @@
       <div class="research-interests" aria-labelledby="interests-title">
         <h2 id="interests-title">Research interests</h2>
         <ul>
-          <li>Robot manipulation and navigation using vision-language models.</li>
+          <li>Vision-language reasoning and task planning for robot manipulation and navigation.</li>
           <li>Perception and spatial understanding with SLAM and 3D Gaussian Splatting.</li>
-          <li>Sim-to-real transfer and deployment, with a focus on safety and human interaction.</li>
+          <li>Reliable real-world deployment through closed-loop feedback, safety layers, and sim-to-real transfer.</li>
         </ul>
       </div>
         </div>
@@ -51,12 +51,12 @@
           </figure>
           <div class="entry-content">
           <h3>CLARO: Clutter-Aware Robot Orchestrator for Open-Vocabulary Grasping Using VLM Agents</h3>
-          <p class="authors"><span class="author-self">S. Kim</span>, V. Bhat, P. Krishnamurthy, R. Karri, and F. Khorrami</p>
+          <p class="authors"><span class="author-self">S. Kim</span>*, V. Bhat*, P. Krishnamurthy, R. Karri, and F. Khorrami</p>
           <p class="venue">WACV 2027</p>
           <p class="description">A vision-language model orchestrator for occlusion-aware, open-vocabulary grasping in cluttered scenes.</p>
           <div class="publication-links" aria-label="CLARO resources">
-            <span class="pending-link">arXiv <span>(Coming soon)</span></span>
-            <span class="pending-link">Website <span>(Coming soon)</span></span>
+            <a href="https://arxiv.org/abs/2610.24016" target="_blank" rel="noopener" aria-label="CLARO on arXiv">arXiv</a>
+            <a href="https://claro-grasp.github.io/" target="_blank" rel="noopener" aria-label="CLARO project website">Website</a>
           </div>
           </div>
         </article>
@@ -77,18 +77,37 @@
           </div>
           </div>
         </article>
+        <article class="publication media-row">
+          <figure class="publication-media">
+            <video controls muted playsinline preload="metadata" poster="media/trackletnav-poster.jpg" width="960" height="540" aria-label="TrackletNav teaser: a Unitree G1 humanoid navigating long outdoor routes">
+              <source src="media/trackletnav-teaser.mp4" type="video/mp4">
+              <a href="media/trackletnav-teaser.mp4">Watch the TrackletNav teaser</a>
+            </video>
+          </figure>
+          <div class="entry-content">
+          <h3>TrackletNav: Real-world Topological Navigation with Long-Term Capability in Complex Outdoor Scenes</h3>
+          <p class="authors">X. Zhang*, <span class="author-self">S. Kim</span>*, R. Khorrambakht, M. Wang, C. Feng, J. Zhang, and L. Righetti</p>
+          <p class="venue">CoRL 2026 Workshop</p>
+          <p class="description">Long-horizon navigation that splits a route into tracklets, with a VLM agent that monitors and corrects a local policy on a G1 humanoid.</p>
+          <div class="publication-links" aria-label="TrackletNav resources">
+            <span class="pending-link">arXiv <span>(Coming soon)</span></span>
+            <a href="https://trackletnav.github.io/" target="_blank" rel="noopener" aria-label="TrackletNav project website">Website</a>
+          </div>
+          </div>
+        </article>
+        <p class="pub-note">* Equal contribution</p>
       </section>
 
       <section id="projects" aria-labelledby="projects-title">
         <h2 id="projects-title">Projects</h2>
         <article class="project media-row">
-          <a href="media/object-goal-navigation-combined.jpg" target="_blank" rel="noopener" aria-label="Open Object-Goal Navigation in Dynamic Environments image">
+          <a href="media/object-goal-navigation-combined.jpg" target="_blank" rel="noopener" aria-label="Open Semantic 3D Gaussian Splatting for Object-Goal Navigation image">
             <img src="media/object-goal-navigation-combined.jpg" alt="TITA and Boston Dynamics Spot platforms for object-goal navigation" width="1816" height="1200" loading="lazy">
           </a>
           <div class="entry-content">
-          <h3>Object-Goal Navigation in Dynamic Environments</h3>
+          <h3>Semantic 3D Gaussian Splatting for Object-Goal Navigation</h3>
           <p class="meta">Capstone design project · August 2026–present</p>
-          <p>Object-goal navigation in dynamic environments with multiple instances of a target object, using a modular, embodiment-agnostic design with scene graphs for TITA and Boston Dynamics Spot.</p>
+          <p>A full object-goal navigation system that combines SLAM, semantic 3D Gaussian Splatting, scene graphs, and spatial reasoning, with a modular, embodiment-agnostic design for TITA and Boston Dynamics Spot.</p>
           </div>
         </article>
         <article class="project media-row">
